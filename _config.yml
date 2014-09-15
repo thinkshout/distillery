@@ -1,0 +1,24 @@
+name: Site Title 
+description:
+  
+markdown: redcarpet
+highlighter: pygments
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
+baseurl: ''
+port: 4000
+# url:
+
+twitter_handle: 
+
+# Permalink Configuration
+permalink: /blog/:year/:month/:title
+
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'config.rb', 'assets/sass',  'node_modules', 'Procfile']
+
+#Setting relative permalink to false. See http://jekyllrb.com/docs/upgrading/.
+relative_permalinks: false
+
+sass:
+  sass_dir: _sass

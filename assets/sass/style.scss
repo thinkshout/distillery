@@ -1,3 +1,15 @@
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-@import 'base/base';
+// Import Bitters / Bourbon / Neat
+@import 'bourbon/bourbon/bourbon';
+@import 'bourbon/neat/neat';
+@import 'bourbon/bitters/base';
+
+// Layouts
+@import "layout/*";
+
+// Components
+@import "components/*";
+
+// Vendor
+@import "vendor/*";
+
+background: blue!important;

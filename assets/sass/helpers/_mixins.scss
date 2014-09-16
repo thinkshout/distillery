@@ -1,0 +1,8 @@
+//Apply Bourbon Button Mixin globally
+button, .button {
+  @include button;
+  &:hover {
+    color: white;
+  }
+}
+

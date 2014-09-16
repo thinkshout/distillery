@@ -6,10 +6,13 @@
 // Layouts
 @import "layout/*";
 
+// Helpers - extends, variables & mixins
+@import "helpers/*";
+
 // Components
 @import "components/*";
 
 // Vendor
 @import "vendor/*";
 
-body { background: blue !important; }
+

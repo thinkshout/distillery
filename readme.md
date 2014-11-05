@@ -1,5 +1,6 @@
-# Buddy the Wireframe
-This is a starter kit for creating wireframes with Jekyll 2.4.*
+# Distillery
+This is a starter kit for creating wireframes with Jekyll 2.4. It uses the Bourbon library - Bourbon, Neat, Bitters & Refills, and a nifty Rake setup*
+
 
 # Getting started
 To get up and running:

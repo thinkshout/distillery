@@ -1,3 +1,18 @@
-@import 'bourbon/bourbon';
-@import 'neat/neat';
-@import 'base/base';
+// Import Bitters / Bourbon / Neat
+@import 'bourbon/bourbon/bourbon';
+@import 'bourbon/neat/neat';
+@import 'bourbon/base/base';
+
+// Layouts
+@import "layout/*";
+
+// Helpers - extends, variables & mixins
+@import "helpers/*";
+
+// Components
+@import "components/*";
+
+// Vendor
+@import "vendor/*";
+
+

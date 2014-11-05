@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+//Apply Bitters Button Mixin globally
+button, .button {
+  @extend %button;
+}

@@ -1,0 +1,9 @@
+.layout-default .page-content {
+  @include outer-container;
+  padding: 0 1em;
+}
+
+.layout-default .site-footer {
+  @include outer-container;
+  padding: 0 1em
+}

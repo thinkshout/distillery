@@ -6,7 +6,7 @@ highlighter: pygments
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
-baseurl: ''
+baseurl: 'http://thinkshout.github.io/buddy-the-wireframe'
 port: 4000
 # url:
 
